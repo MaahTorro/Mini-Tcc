@@ -1,0 +1,103 @@
+
+/**entende-se q é uma documentação de código
+ *
+
+/**
+*Folha de estilo personalizada do site...
+*@author Seu Nome
+ */
+
+ /* layout */
+ .flexFooter{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+/* Smartphone Portrait */
+body {
+    background-color: #ffffff;
+    color: #000000;
+} 
+
+/* rodape */
+footer{
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#social{
+    margin: 0;
+}
+
+
+/* Smartphone Landscape */
+@media (min-width: 576px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+}
+
+#social{
+    margin-bottom: 25px;
+}
+
+.flexFooter{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Tablet Portrait */
+@media (min-width: 768px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width: 1200px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+}
+
+.nav-container {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.line{
+    color: #000;
+}
