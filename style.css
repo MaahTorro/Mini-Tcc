@@ -47,6 +47,17 @@ footer{
     margin-bottom: 25px;
 }
 
+
+/* conteudo */
+.conteudo{
+  background: url(img/jornal7.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
 .flexFooter{
     flex-direction: row;
     justify-content: space-between;
