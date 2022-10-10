@@ -1,4 +1,3 @@
-
 /**entende-se q é uma documentação de código
  *
 
@@ -7,50 +6,128 @@
 *@author Seu Nome
  */
 
- /* layout */
- .flexFooter{
-    display: flex;
-    flex-direction: column-reverse;
+/* layout */
+.flexFooter {
+  display: flex;
+  flex-direction: column-reverse;
+}
 
+.container {
+  margin-bottom: 28px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.icone-topo {
+  font-size: 32px;
+  color:white;
+  transition: 1s;
+}
+
+.content h5 {
+  margin-top: 14px;
+}
+
+.content {
+  height: 400px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.content:hover{
+  transform: scale(1.05);
+}
+
+i {
+  margin-right: 8px;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px;
+  border-radius: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6e6e6d;
+  z-index: -2;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #313131;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button:hover:before {
+  width: 100%;
 }
 
 /* Smartphone Portrait */
 body {
-    background-color: #000000;
-    color: #d3d3d3;
-} 
-
-/* rodape */
-footer{
-    background-color: rgb(50, 51, 55);
-    color: white;
-    padding: 50px 0px;
-    text-align: center;
+  background-color: #000000;
+  color: #d3d3d3;
 }
 
-#social{
-    margin: 0;
+/* rodape */
+footer {
+  background-color: rgb(50, 51, 55);
+  color: white;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+#social {
+  margin: 0;
 }
 
 
 /* Smartphone Landscape */
-@media (min-width: 576px){
-    /*@media: só aplica o css se a condição for verdadeira*/
-    body {
-        background-color: #000000;
-        color: #d3d3d3;
-    }
-    
+@media (min-width: 576px) {
+
+  /*@media: só aplica o css se a condição for verdadeira*/
+  body {
+    background-color: #000000;
+    color: #d3d3d3;
+  }
+
 }
 
-#social{
-    margin-bottom: 25px;
+#social {
+  margin-bottom: 25px;
 }
 
 
 /* conteudo */
-.conteudo{
-  background: url(img/jornal7.jpg);
+.conteudo {
+  background: url(img/propaganda.png);
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
@@ -58,120 +135,124 @@ footer{
 }
 
 
-.flexFooter{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.flexFooter {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Tablet Portrait */
-@media (min-width: 768px){
-    /*@media: só aplica o css se a condição for verdadeira*/
-    body {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
+@media (min-width: 768px) {
+
+  /*@media: só aplica o css se a condição for verdadeira*/
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
 }
 
 /* Tablet Landscape */
-@media (min-width: 992px){
-    /*@media: só aplica o css se a condição for verdadeira*/
-    body {
-        background-color: #000000;
-        color: #d3d3d3;
-    }
-    
+@media (min-width: 992px) {
+
+  /*@media: só aplica o css se a condição for verdadeira*/
+  body {
+    background-color: #000000;
+    color: #d3d3d3;
+  }
+
 }
 
 /* Desktop */
-@media (min-width: 1200px){
-    /*@media: só aplica o css se a condição for verdadeira*/
-    body {
-        background-color: #000000;
-        color: #d3d3d3;
-    }
-    
+@media (min-width: 1200px) {
+
+  /*@media: só aplica o css se a condição for verdadeira*/
+  body {
+    background-color: #252525;
+    color: #ffffff;
+  }
+
 }
 
 .nav-container {
-    flex-direction: column;
-    align-items: flex-start !important;
+  flex-direction: column;
+  align-items: flex-start !important;
 }
 
 
 .nav-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .nav-line {
-    width: 100%;
+  width: 100%;
 }
+
 .line {
-    color: #000;
+  color: #000;
 }
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-  }
-  
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(68, 68, 68);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
   .column {
-    float: left;
-    width: 25%;
+    width: 50%;
   }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
-  
-  /* Content */
-  .content {
-    background-color: rgb(68, 68, 68);
-    padding: 10px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
