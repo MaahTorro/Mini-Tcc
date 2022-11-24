@@ -126,7 +126,7 @@ footer {
 
 /* conteudo */
 .conteudo {
-  background: url(img/bannerprincipal.jpg);
+  background: url(images/guria.png);
   background-size: cover;
   height: 60vh;
   background-attachment: fixed;
@@ -157,12 +157,12 @@ footer {
 
 .imagemurgente2 {
   padding-inline-start: 20px;
-  padding-top: 21px;
+  padding-top: 0px;
 }
 
 .imagemurgente3 {
   padding-inline-start: 20px;
-  padding-top: 60px;
+  padding-top: 3px;
 }
 
 .imgentreterimento1 {
