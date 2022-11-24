@@ -37,6 +37,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
+  background-color: black;
 }
 
 /*---------------------------------------------*/
@@ -183,7 +184,7 @@ iframe {
 
 
 .wrap-login100 {
-  width: 600px;
+  width: 820px;
   background: #fff;
   border-radius: 10px;
   position: relative;
@@ -525,4 +526,13 @@ iframe {
     width: 100%;
   }
 }
+}
+
+
+/* asd */
+
+.botao-legal {
+  font-size: 30px;
+  margin-bottom: 32px;
+  cursor: pointer;
 }
