@@ -18,7 +18,7 @@
 
 a {
   text-decoration: none;
-  color:white;
+  color:rgb(0, 0, 0);
 }
 
 .icone-topo {
@@ -97,8 +97,8 @@ body {
 
 /* rodape */
 footer {
-  background-color: rgb(50, 51, 55);
-  color: white;
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 0, 0);
   padding: 50px 0px;
   text-align: center;
 }
@@ -113,8 +113,8 @@ footer {
 
   /*@media: só aplica o css se a condição for verdadeira*/
   body {
-    background-color: #000000;
-    color: #d3d3d3;
+    background-color: #ffffff;
+    color: #000000;
   }
 
 }
@@ -126,13 +126,60 @@ footer {
 
 /* conteudo */
 .conteudo {
-  background: url(img/propaganda.png);
+  background: url(img/bannerprincipal.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
   background-attachment: fixed;
   background-position: center;
 }
 
+.assinebackg {
+  background: url(img/assine.png);
+  background-size: cover;
+  opacity: 1;
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.quemsomos {
+  background: url(images/quemsomoseita.png);
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+
+}
+
+.imagemurgente {
+  padding-inline-start: 20px;
+  padding-top: 8px;
+}
+
+.imagemurgente2 {
+  padding-inline-start: 20px;
+  padding-top: 21px;
+}
+
+.imagemurgente3 {
+  padding-inline-start: 20px;
+  padding-top: 60px;
+}
+
+.imgentreterimento1 {
+  padding-inline-start: 35px;
+  padding-top: 30px;
+
+}
+
+.imgentreterimento2{
+  padding-inline-start: 35px;
+  padding-top: 40px;
+
+}
+
+.textomain {
+  text-align: center;
+}
 
 .flexFooter {
   flex-direction: row;
@@ -145,8 +192,8 @@ footer {
 
   /*@media: só aplica o css se a condição for verdadeira*/
   body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
   }
 
 }
@@ -156,8 +203,8 @@ footer {
 
   /*@media: só aplica o css se a condição for verdadeira*/
   body {
-    background-color: #000000;
-    color: #d3d3d3;
+    background-color: #ffffff;
+    color: #000000;
   }
 
 }
@@ -167,8 +214,8 @@ footer {
 
   /*@media: só aplica o css se a condição for verdadeira*/
   body {
-    background-color: #252525;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
   }
 
 }
@@ -238,8 +285,9 @@ h1 {
 
 /* Content */
 .content {
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(219, 219, 219);
   padding: 10px;
+  min-height: 430px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -254,4 +302,239 @@ h1 {
   .column {
     width: 100%;
   }
+}
+
+
+
+
+
+/* palpalap  codes */
+
+.tempo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tempoum {
+  background-color: rgb(255, 255, 255);
+  height: 420px;
+  width: 400px;
+  border: 0.4px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempoum img {
+  width: 60px;
+}
+
+.tempodois img {
+  width: 380px;
+}
+
+.box-tempo {
+  background-color: #808080;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  width: 450px;
+  border-radius: 4px;
+  border: 0.4px solid black;
+}
+
+.box-tempo h2 {
+  margin-top: 15px;
+}
+
+.img-tempo img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-self: flex-start;
+}
+
+.img-tempo {
+  margin-top: 20px;
+  width: 350px;
+  height: 60px;
+}
+
+.linha-vertical{
+    height: 500px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha. pedro cobras*/
+    display: flex;
+  }
+
+.enviar{
+  display: flex;
+}
+
+
+/* button foda del juan */
+
+.buttonfoda {
+  padding: 10px 30px;
+  font-size: 15px;
+  color: white;
+  background-color: #60a060;
+  border: 5px solid transparent;
+  transition: .2s ease;
+  border-radius: 8px;
+}
+
+.buttonfoda:hover {
+  color: #ffffff;
+  background-color: #00791a;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.maah-chata-com-botao-no-final {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* codigos legais */
+
+.alinhar-assine-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-assine-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff;
+  width: 350px;
+  height: 400px;
+  transition: 0.2s;
+  margin-top: 40px;
+}
+
+.box-assine-single-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(44, 44, 44, 0.856);
+  width: 400px;
+  height: 500px;
+  transition: 0.2s;
+  margin-top: 40px;
+}
+
+.box-assine-single-principal:hover {
+  background-color: rgb(44, 44, 44);
+  transform: scale(1.02);
+}
+
+.box-assine-single:hover {
+  transform: scale(1.02);
+}
+
+.button-assine-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.button-assine-principal {
+  color: white;
+  padding: 10px 100px;
+  border-radius: 10px;
+  background-color: black;
+  transition: 0.2s;
+}
+
+.button-assine-principal:hover {
+  border: black 1px solid;
+  color: black;
+  background-color: white;
+}
+
+.text-top-assine {
+  color: black;
+}
+
+.text-bottom-assine {
+  color: black;
+}
+
+.text-top-assine-principal {
+  color: white;
+}
+
+.text-bottom-assine-principal {
+  margin:10px;
+  color:white;
+}
+
+.button-bonitao {
+  border: black 1px solid;
+  color: black;
+  padding: 10px 100px;
+  border-radius: 10px;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.button-bonitao:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.li-single {
+  text-align: start;
+  color: white;
+}
+
+.ul-single {
+  margin-left: 20px;
+}
+
+.telefone {
+  padding-top: 15px;
+  border: 0.4px solid black;
+  border-radius: 4px;
+  background-color: #015e862d;
+
+}
+
+/* botao chjato */
+
+.botaochato {
+  margin: 20px;
+  width: 200px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.botaochato:hover {
+  color: #ffffff;
+  background-color: rgba(55, 19, 116, 0.544);
+}
+
+.porrabotao {
+  display: flex;
 }
