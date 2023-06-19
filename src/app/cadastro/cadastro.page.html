@@ -1,0 +1,33 @@
+<ion-content id="masters" [fullscreen]="true">
+
+
+  <div id="body">
+
+    <div id="container">
+      <section id="sectionlogin">
+        <div id="logo"></div>
+
+        <div class="box-input-cima">
+
+
+          <div id="box-input">
+            <input id="inputum" type="text" placeholder="Nome" [(ngModel)]="nome">
+            <input id="inputum" type="text" placeholder="Sobrenome" [(ngModel)]="sobrenome">
+          </div>
+
+        </div>
+
+        <input type="tel" placeholder="{{placeholderTell}}" [(ngModel)]="tell">
+        <input type="email" placeholder="Email" id="{{incorretoEmail}}" [(ngModel)]="email">
+        <input type="text" placeholder="Empresa" [(ngModel)]="empresa">
+        <input type="password" placeholder="Senha" id="{{incorretoSenha}}" [(ngModel)]="senha">
+        <input type="password" placeholder="Confirmar senha" id="{{incorretoSenha}}" [(ngModel)]="confirmaSenha">
+
+        <h2 id="text-login">Já possui uma conta? <a routerLink="../home" id="botao-cadastro">Entre!</a> </h2>
+        <button id="botao-login" (click)="cadastrar()" [routerLink]="['/cadastrodois']" routerLinkActive="router-link-active" >Próximo</button>
+
+        </section>
+    </div>
+  </div>
+
+</ion-content>

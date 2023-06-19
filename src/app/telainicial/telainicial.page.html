@@ -1,0 +1,124 @@
+<ion-content id="masters" [fullscreen]="true">
+
+
+
+  <div id="body">
+
+    <div id="background">
+      <h2 id="text-background">Olá, "<u>seu nome</u>"</h2>
+    </div>
+
+
+    <div id="centro-box">
+      <div id="box">
+
+        <div id="text-box">
+          <h2 id="text-box-um">R$1,290</h2>
+          <p id="text-box-dois">Renda Diária</p>
+        </div>
+
+        <div id="text-box">
+          <h2 id="text-box-um">R$9,030</h2>
+          <p id="text-box-dois">Renda Semanal</p>
+        </div>
+
+        <div id="text-box">
+          <h2 id="text-box-um">R$36,120</h2>
+          <p id="text-box-dois">Renda Mensal</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="inicial-lembretes">
+
+      <div id="titulo-lembretes">
+        <h2 routerLink="../lembretes" id="titulo-lembretes-text">Lembretes</h2>
+        <ion-icon routerLink="../lembretes" name="chevron-forward-outline"></ion-icon>
+      </div>
+
+      <div id="centro-lembretes">
+
+        <div id="box-lembretes">
+
+          <div id="lembrete-single">
+            <ion-icon id="alerta" routerLink="../lembretes" name="alert-outline"></ion-icon>
+            <p routerLink="../lembretes" id="text-lembretes-inicial">Produto expira amanhã!</p>
+          </div>
+
+          <div id="lembrete-single">
+            <ion-icon id="check" routerLink="../lembretes" name="checkmark-outline"></ion-icon>
+            <p routerLink="../lembretes" id="text-lembretes-inicial">Você cumpriu uma meta!</p>
+          </div>
+
+          <div id="lembrete-single">
+            <ion-icon id="evento" routerLink="../lembretes" name="checkmark-outline"></ion-icon>
+            <p routerLink="../lembretes" id="text-lembretes-inicial">Um evento esta chegando!</p>
+          </div>
+
+        </div>
+      </div>
+
+      </div>
+      <div id="titulo-lembretes">
+        <h2 id="titulo-lembretes-text">Estatísticas</h2>
+      </div>
+
+      <div id="box-estatisticas" >
+        <div class="grafico" [style]="grafico"></div>
+
+        <div id="boxes">
+
+          <div id="legend-text">
+            <div id="cubo-um"></div>
+            <p>Texto</p>
+          </div>
+
+          <div id="legend-text">
+            <div id="cubo-dois"></div>
+            <p>Texto</p>
+          </div>
+
+          <div id="legend-text">
+            <div id="cubo-tres"></div>
+            <p>Texto</p>
+          </div>
+
+          <div id="legend-text">
+            <div id="cubo-quatro"></div>
+            <p>Texto</p>
+          </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="teste">
+      <ion-button (click)="addProduto()"> Add produto </ion-button>
+    </div>
+
+    <footer>
+
+      <ion-icon id="iconefooter" name="receipt-outline"></ion-icon>
+      <ion-icon id="iconefooter" name="stats-chart-outline"></ion-icon>
+      <ion-icon id="iconefooter-selecionado" name="home-outline"></ion-icon>
+      <ion-icon id="iconefooter" routerLink="../estoque" name="cube-outline"></ion-icon>
+      <ion-icon id="iconefooter" name="settings-outline"></ion-icon>
+
+
+    </footer>
+</div>
+
+
+
+
+
+
+</ion-content>
+
+
+

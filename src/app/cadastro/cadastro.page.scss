@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+#body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#sectionlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+input {
+  border-radius: 5px;
+  color: black;
+  border: #1765DB .5px solid;
+  margin-top: 15px;
+  height: 45px;
+  width: 260px;
+  font-size: 14px;
+  padding: 12px;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+#text-login {
+  color: #212C4A;
+  font-size: 14px;
+}
+
+
+#botao-cadastro {
+  color: white;
+  text-decoration: none;
+}
+
+#botao-login {
+  border-radius: 30px;
+  background-color: #1765DB;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  height: 45px;
+  width: 200px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#logo {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 100%;
+  background-size: 105%;
+  background-image: url(../logo.jpg);
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#box-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: -9px;
+}
+
+
+
+#inputum {
+  width: 123px;
+  margin: 8px;
+}
+
+#box-input-cima {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  color: #3568E9;
+  font-size: 14px;
+  letter-spacing: -.5px;
+}
+
+#incorreto {
+  border: solid 1px red;
+
+}

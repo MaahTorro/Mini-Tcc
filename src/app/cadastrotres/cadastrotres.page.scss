@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+#body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(180deg, #A7FAFF 15.63%, #3A89FF 100%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#sectionlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  color: #2717DB;
+  margin: 15px 20px 0px 20px;
+  height: 45px;
+  width: 260px;
+  font-size: 14px;
+  padding: 12px;
+  border: none;
+}
+
+#botao-addProduto {
+  border-radius: 30px;
+  background-color: #1765DB;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  height: 45px;
+  width: 200px;
+  border: none;
+  margin-top: 19px;
+}
+
+h3 {
+  color: #2717DB;
+  margin: 5px;
+}
+
+h4{
+  font-size: 15px;
+  color: #1F58EB;
+  margin: 5px;
+}
+
+.cardProduto {
+  background-color: #fff;
+  border-radius: 5px;
+  height: auto;
+  width: 240px;
+  padding: 10px;
+  margin-bottom: 2rem ;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}

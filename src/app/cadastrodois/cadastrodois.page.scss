@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+#body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#sectionlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+input {
+  border: #1765DB .5px solid;
+  border-radius: 5px;
+  color: #1765DB;
+  margin-top: 15px;
+  height: 45px;
+  width: 260px;
+  font-size: 14px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+#text-login {
+  color: #212C4A;
+  font-size: 14px;
+}
+
+
+#botao-cadastro {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+#logo {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 100%;
+  background-size: 105%;
+  background-image: url(../logo.jpg);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#box-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: -9px;
+}
+
+
+
+#inputum {
+  width: 123px;
+  margin: 8px;
+}
+
+#box-input-cima {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  color: #3568E9;
+  font-size: 14px;
+  letter-spacing: -.5px;
+}
+
+#botaoselect {
+  background-color: white;
+  transition: .2s;
+}
+
+#botaoselect:focus {
+  background-color: #d4d3d3;
+  border: solid .5px black;
+  transform: scale(.99);
+}
+
+#center-cdois {
+  width: 259px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+#botao-cdois {
+  border-radius: 5px;
+  color: #1765DB;
+  border: .5px solid #1765DB;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #ffffff;
+}
